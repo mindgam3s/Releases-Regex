@@ -275,7 +275,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German Microsized*/ regexMatched(streams, 'German Microsized')",
+    "expression": "/*German Microsized*/ releaseGroup(streams ,'FuN','w00t','GTF','JellyfinPlex','BB','266ers')",
     "score": -35000,
     "enabled": true
   }
