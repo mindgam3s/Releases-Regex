@@ -80,7 +80,7 @@
     "enabled": true
   },
   {
-    "expression": "/*Remux T1*/ regexMatched(streams,'Remux T1')",
+    "expression": "/*Remux T1*/ releaseGroup(quality(streams, 'Bluray REMUX'), '3L','BiZKiT','BLURANiUM','BMF','CiNEPHiLES','FraMeSToR','PiRAMiDHEAD','PmP','WiLDCAT','ZQ')",
     "score": 1950,
     "enabled": true
   },
@@ -90,12 +90,12 @@
     "enabled": true
   },
   {
-    "expression": "/*Remux T2*/ regexMatched(streams,'Remux T2')",
+    "expression": "/*Remux T2*/ releaseGroup(quality(streams, 'Bluray REMUX'), 'ATELiER','NCmt','playBD','SiCFoI','SURFINBIRD','TEPES')",
     "score": 1900,
     "enabled": true
   },
   {
-    "expression": "/*Remux T3*/ regexMatched(streams,'Remux T3')",
+    "expression": "/*Remux T3*/ releaseGroup(quality(streams, 'Bluray REMUX'), '12GaugeShotgun','decibeL','EPSiLON','HiFi','iFT','KRaLiMaRKo','NTb','PTer','PTP','SumVision','TOA','TRiToN')",
     "score": 1850,
     "enabled": true
   },
@@ -115,17 +115,17 @@
     "enabled": true
   },
   {
-    "expression": "/*Web T1*/ regexMatched(streams,'Web T1')",
+    "expression": "/*Web T1*/ releaseGroup(quality(streams, 'WEB-DL','WEBRip'), 'ZeroTwo','BUTTERCUP','HARTZ02','XiSS','DOGPACK404','PRiNCESSDiANA','DiVA','WAREZCX','BiTCHNUGGET','TSCC','TvR','NIMA4K','TVS','D02KU','PXL','QfG','CNY','WeebPinn','MEDiATHEK','RiiR','TOJ','WalterBishop','pmHD')",
     "score": 1700,
     "enabled": true
   },
   {
-    "expression": "/*Web T2*/ regexMatched(streams,'Web T2')",
+    "expression": "/*Web T2*/ releaseGroup(quality(streams, 'WEB-DL','WEBRip'), 'VECTOR','MULTiPLEX','SiXTYNiNE','Oergel','4SF','ABJ','paranoid06')",
     "score": 1650,
     "enabled": true
   },
   {
-    "expression": "/*Web T3*/ regexMatched(streams,'Web T3')",
+    "expression": "/*Web T3*/ releaseGroup(quality(streams, 'WEB-DL','WEBRip'), 'RobertDeNiro','BALENCiAGA','HDSource','FX','RDR')",
     "score": 1600,
     "enabled": true
   },
