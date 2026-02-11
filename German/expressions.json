@@ -170,7 +170,7 @@
     "enabled": true
   },
   {
-    "expression": "/*CRiT*/ quality(releaseGroup(negate(releaseGroup(streams, 'Criterion'), streams),'CRiT'), 'WEB-DL','WEBRip')",
+    "expression": "/*CRiT*/ quality(negate(releaseGroup(streams, 'Criterion'), regexMatched(streams, 'CRiT')), 'WEB-DL','WEBRip')",
     "score": 20,
     "enabled": true
   },
