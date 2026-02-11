@@ -155,17 +155,7 @@
     "score": 0
   },
   {
-    "name": "LQ",
-    "pattern": "/\\b(24xHD|41RGB|4K4U|AOC|AROMA|aXXo|AZAZE|BARC0DE|BAUCKLEY|BdC|BRiNK|BTM|C1NEM4|C4K|CDDHD|CHAOS|CHD|CHX|CiNE|CREATiVE24|CrEwSaDe|CTFOH|d3g|DDR|DepraveD|DNL|DRX|E|EuReKA|EVO|FaNGDiNG0|Feranki1980|FGT|FMD|FRDS|FZHD|GalaxyRG|GHD|GHOSTS|GPTHD|HDHUB4U|HDS|HDT|HDTime|HDWinG|HiQVE|iNTENSO|iPlanet|jennaortega(UHD)?|JFF|KC|KIRA|L0SERNIGHT|LAMA|Leffe|Liber8|LiGaS|MarkII|MeGusta|Mesc|mHD|mSD|MTeam|MT|MySiLU|nhanc3|NhaNc3|nHD|nikt0|nSD|OFT|PATOMiEL|PRODJi|PSA|PTNK|RARBG|RDN|Rifftrax|RU4HD|SANTi|SasukeducK|SHD|ShieldBearer|STUTTERSHIT|TBS|TEKNO3D|TG|Tigole|TIKO|VIDEOHOLE|VISIONPLUSHDR(-X|1000)?|WAF|WiKi|worldmkv|x0r|XLF|YIFY|YTS(.(MX|LT|AG))?|Zero00|Zeus)\\b|Pahe(\\.(ph|in))?\\b/i",
-    "score": 0
-  },
-  {
-    "name": "LQ",
-    "pattern": "/\\b(beAst|COLLECTiVE|EPiC|iVy|KiNGDOM|LUCY|Scene|SUNSCREEN)\\b/",
-    "score": 0
-  },
-  {
-    "name": "LQ GER (Release Title)",
+    "name": "German LQ (release title)",
     "pattern": "/([._-]German[._-].+?[._-]?German$)|(Jellyfin-Plex$)|(([._-])iTunes(?:HD|SD)?\\1.+?-TVS$)/i",
     "score": 0
   },
@@ -175,8 +165,8 @@
     "score": 0
   },
   {
-    "pattern": "/\\b(LD|AC3LD|Line[ .-]?Dubbed)|(MD|AC3MD|Mic[ .-]?Dubbed)\\b/i",
     "name": "Line/Mic Dubbed",
+    "pattern": "/\\b(LD|AC3LD|Line[ .-]?Dubbed)|(MD|AC3MD|Mic[ .-]?Dubbed)\\b/i",
     "score": 0
   },
   {
@@ -245,11 +235,6 @@
     "score": 0
   },
   {
-    "pattern": "/10[.-]?bit|hi10p/i",
-    "name": "10bit",
-    "score": 0
-  },
-  {
     "pattern": "/\\b(Uncut|Unrated|Uncensored|AT[-_. ]?X)\\b/i",
     "name": "Uncensored",
     "score": 0
@@ -262,11 +247,6 @@
   {
     "pattern": "/(?<=\\b[12]\\d{3}\\b).*\\b((B(lack)?[ ._-]?(out|(and|[n&])[ ._-]?(W(hite)?|Chrome)))|Monochrome|Noir|Shush[ ._-]?Cut|(No|Minus)[ ._-]?Colou?r|Gr[ae]y([ ._-]?(scale))?|Darkness?[ ._-]?(and|&)[ ._-]?(Light))\\b(?!$)/i",
     "name": "Black and White Editions",
-    "score": 0
-  },
-  {
-    "pattern": "/\\b((?<!NON[ ._-])IMAX)\\b/i",
-    "name": "IMAX",
     "score": 0
   },
   {
@@ -292,11 +272,6 @@
   {
     "pattern": "/\\b(Remaster)\\b/i",
     "name": "Remaster",
-    "score": 0
-  },
-  {
-    "pattern": "/\\b(4k)\\b/i",
-    "name": "4K",
     "score": 0
   },
   {
