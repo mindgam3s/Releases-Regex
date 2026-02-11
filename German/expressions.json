@@ -205,12 +205,27 @@
     "enabled": true
   },
   {
+    "expression": "/*BR-DISK*/ regexMatched(streams, 'BR-DISK')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Extras*/ regexMatched(streams, 'Extras')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
     "expression": "/*Generated Dynamic HDR*/ releaseGroup(visualTag(streams, 'DV','HDR10','HDR10+'), 'BiTOR','DepraveD','Flights','SasukeducK','tarunk9c','VD0N','VECTOR','VisionXpert')",
     "score": -35000,
     "enabled": true
   },
   {
     "expression": "/*LQ*/ regexMatched(streams, 'LQ','LQ GER')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*German Microsized*/ regexMatched(streams, 'German Microsized')",
     "score": -35000,
     "enabled": true
   },
@@ -229,4 +244,9 @@
     "score": -35000,
     "enabled": true
   }
+  {
+    "expression": "/*Not German or English*/ negate(merge(language(streams, 'German'), language(streams, 'English'), regexMatched(streams, 'German')), streams),
+    "score": -35000,
+    "enabled": true
+  },
 ]
