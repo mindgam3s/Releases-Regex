@@ -245,7 +245,7 @@
     "enabled": true
   }
   {
-    "expression": "/*Not German or English*/ negate(merge(language(streams, 'German'), language(streams, 'English'), regexMatched(streams, 'German')), streams),
+    "expression": "/*Not German or English*/ negate(merge(language(streams, 'German'), language(streams, 'English'), regexMatched(streams, 'German')), streams)",
     "score": -35000,
     "enabled": true
   },
