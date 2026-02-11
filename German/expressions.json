@@ -205,7 +205,7 @@
     "enabled": true
   },
   {
-    "expression": "/*x265 (HD)*/ encode(negate(resolution(streams, '2160p'), streams), 'x265','H.265','HEVC')",
+    "expression": "/*x265 (HD)*/ merge( encode(negate(resolution(streams, '2160p'), streams), 'x265','H.265','HEVC') , regexMatched(negate(resolution(streams, '2160p'), streams), 'x265 (HD)') )",
     "score": 0,
     "enabled": true
   },
@@ -260,11 +260,6 @@
     "enabled": true
   },
   {
-    "expression": "/*German Microsized*/ regexMatched(streams, 'German Microsized')",
-    "score": -35000,
-    "enabled": true
-  },
-  {
     "expression": "/*Line/Mic Dubbed*/ regexMatched(streams, 'Line/Mic Dubbed')",
     "score": -35000,
     "enabled": true
@@ -279,4 +274,9 @@
     "score": -35000,
     "enabled": true
   },
+  {
+    "expression": "/*German Microsized*/ regexMatched(streams, 'German Microsized')",
+    "score": -35000,
+    "enabled": true
+  }
 ]
