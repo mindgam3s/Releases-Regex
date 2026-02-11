@@ -240,11 +240,6 @@
     "enabled": true
   },
   {
-    "expression": "/*Generated Dynamic HDR*/ visualTag(releaseGroup(streams, 'BiTOR','DepraveD','Flights','SasukeducK','tarunk9c','VD0N','VECTOR','VisionXpert'), 'DV','HDR','HDR10','HDR10+')",
-    "score": -35000,
-    "enabled": true
-  }
-  {
     "expression": "/*Not German or English*/ negate(merge(language(streams, 'German'), language(streams, 'English'), regexMatched(streams, 'German')), streams)",
     "score": -35000,
     "enabled": true
