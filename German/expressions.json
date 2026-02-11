@@ -205,11 +205,6 @@
     "enabled": true
   },
   {
-    "expression": "/*German Bluray T1-3*/ regexMatched(streams,'Bluray T1 GER','Bluray T2 GER','Bluray T3 GER')",
-    "score": 0,
-    "enabled": true
-  },
-  {
     "expression": "/*x265 (HD)*/ encode(negate(resolution(streams, '2160p'), streams), 'x265','H.265','HEVC')",
     "score": 0,
     "enabled": true
