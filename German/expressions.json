@@ -25,12 +25,12 @@
     "enabled": true
   },
   {
-    "expression": "/*German Remux T1*/ regexMatched(streams,'Remux T1 GER')",
+    "expression": "/*German Remux T1*/ releaseGroup(quality(streams, 'Bluray REMUX'), 'TvR','pmHD','NIMA4K','QfG','WeebPinn','MAMA')",
     "score": 4000,
     "enabled": true
   },
   {
-    "expression": "/*German Remux T2*/ regexMatched(streams,'Remux T2 GER')",
+    "expression": "/*German Remux T2*/ releaseGroup(quality(streams, 'Bluray REMUX'), 'MULTiPLEX','RHD','HD','HDSource','iNCEPTION','FX','RocketHD')",
     "score": 3900,
     "enabled": true
   },
@@ -45,7 +45,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German Bluray T1*/ regexMatched(streams,'Bluray T1 GER')",
+    "expression": "/*German Bluray T1*/ releaseGroup(quality(streams, 'Bluray'), 'ZeroTwo','BUTTERCUP','HARTZ02','XiSS','DOGPACK404','PRiNCESSDiANA','DiVA','WAREZCX','BiTCHNUGGET','TSCC','TvR','NIMA4K','TVS','PXL','CNY','WeebPinn','MAMA','WalterBishop')",
     "score": 2900,
     "enabled": true
   },
@@ -55,7 +55,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German Bluray T2*/ regexMatched(streams,'Bluray T2 GER')",
+    "expression": "/*German Bluray T2*/ releaseGroup(quality(streams, 'Bluray'), 'VECTOR','MULTiPLEX','ABJ','paranoid06')",
     "score": 2650,
     "enabled": true
   },
@@ -65,7 +65,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German Bluray T3*/ regexMatched(streams,'Bluray T3 GER')",
+    "expression": "/*German Bluray T3*/ releaseGroup(quality(streams, 'Bluray'), 'RobertDeNiro','LeetHD','RHD','HDSource','UNFIrED','iNCEPTION','FX','RDR')",
     "score": 2300,
     "enabled": true
   },
@@ -75,7 +75,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German Web T1*/ regexMatched(streams,'Web T1 GER')",
+    "expression": "/*German Web T1*/ releaseGroup(quality(streams, 'WEB-DL','WEBRip'), 'ZeroTwo','BUTTERCUP','HARTZ02','XiSS','DOGPACK404','PRiNCESSDiANA','DiVA','WAREZCX','BiTCHNUGGET','TSCC','TvR','NIMA4K','TVS','D02KU','PXL','QfG','CNY','WeebPinn','MEDiATHEK','RiiR','TOJ','WalterBishop','pmHD')",
     "score": 2100,
     "enabled": true
   },
@@ -85,7 +85,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German Web T2*/ regexMatched(streams,'Web T2 GER')",
+    "expression": "/*German Web T2*/ releaseGroup(quality(streams, 'WEB-DL','WEBRip'), 'VECTOR','MULTiPLEX','SiXTYNiNE','Oergel','4SF','ABJ','paranoid06')",
     "score": 1900,
     "enabled": true
   },
@@ -100,7 +100,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German Web T3*/ regexMatched(streams,'Web T3 GER')",
+    "expression": "/*German Web T3*/ releaseGroup(quality(streams, 'WEB-DL','WEBRip'), 'RobertDeNiro','BALENCiAGA','HDSource','FX','RDR')",
     "score": 1800,
     "enabled": true
   },
@@ -110,7 +110,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German Scene*/ regexMatched(streams,'Web Scene GER')",
+    "expression": "/*German Scene*/ releaseGroup(streams, 'DETAiLS','WAYNE','WOMBAT','SAUERKRAUT','WvF','4KCONNECTiON','STARS','AWARDS','DMPD','EXCiTED','iNTENTiON','JaJunge','MGE','MisFiTS','RUBBiSH','RWP','TMSF','TV4A','HAXE','muhHD','RiLE','W4K','ENDSTATiON','HDARCHiV','PL3X','WATCHABLE','OHD','ENCOUNTERS','RSG','OCA','UNDERTAKERS','CDP','SAViOURHD','CONTRiBUTiON','GOREHOUNDS','SPiCY','bi0hazard')",
     "score": 1700,
     "enabled": true
   },
