@@ -175,6 +175,16 @@
     "enabled": true
   },
   {
+    "expression": "/*MA*/ quality(regexMatched(streams, 'MA'), 'WEB-DL','WEBRip')",
+    "score": 20,
+    "enabled": true
+  },
+  {
+    "expression": "/*BCore*/ quality(regexMatched(streams, 'BCORE'), 'WEB-DL','WEBRip')",
+    "score": 15,
+    "enabled": true
+  },
+  {
     "expression": "/*Repack3*/ (queryType == 'movie' or queryType == 'series') ? regexMatched(streams, 'Repack3') : []",
     "score": 7,
     "enabled": true
