@@ -1,0 +1,7 @@
+[
+  {
+    "expression": "/*French LQ (Fake Tags)*/ releaseGroup(streams, 'Xander')",
+    "score": -35000,
+    "enabled": true
+  }
+]
