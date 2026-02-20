@@ -70,7 +70,7 @@
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime Bluray-576p*/ (not isAnime) ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '576p'), 'Bluray')",
+    "expression": "/*Low Bitrate Anime 576p-Bluray*/ (not isAnime) ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '576p'), 'Bluray')",
     "score": -2000,
     "enabled": true
   },
@@ -90,12 +90,12 @@
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime DVDRip-480p*/ (not isAnime) ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'DVDRip')",
+    "expression": "/*Low Bitrate Anime 480p-DVDRip*/ (not isAnime) ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'DVDRip')",
     "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime DVD-480p*/ (not isAnime) ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'DVD')",
+    "expression": "/*Low Bitrate Anime 480p-DVD*/ (not isAnime) ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'DVD')",
     "score": -2000,
     "enabled": true
   }
