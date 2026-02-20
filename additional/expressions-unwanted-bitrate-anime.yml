@@ -1,102 +1,102 @@
 [
   {
-    "expression": "/*Low Bitrate Anime Remux-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'Bluray REMUX')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 2160p-Remux*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'Bluray REMUX')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime Bluray-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'Bluray')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 2160p-Bluray*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'Bluray')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime WEBDL-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'WEB-DL')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 2160p-WEBDL*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'WEB-DL')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime WEBRip-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'WEBRip')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 2160p-WEBRip*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'WEBRip')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime HDTV-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'HDTV')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 2160p-HDTV*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '2160p'), 'HDTV')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime Remux-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'Bluray REMUX')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 1080p-Remux*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'Bluray REMUX')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime Bluray-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'Bluray')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 1080p-Bluray*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'Bluray')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime WEBDL-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'WEB-DL')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 1080p-WEBDL*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'WEB-DL')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime WEBRip-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'WEBRip')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 1080p-WEBRip*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'WEBRip')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime HDTV-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'HDTV')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 1080p-HDTV*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '1080p'), 'HDTV')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime Bluray-720p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '720p'), 'Bluray')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 720p-Bluray*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '720p'), 'Bluray')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime WEBDL-720p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '720p'), 'WEB-DL')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 720p-WEBDL*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '720p'), 'WEB-DL')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime WEBRip-720p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '720p'), 'WEBRip')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 720p-WEBRip*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '720p'), 'WEBRip')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime HDTV-720p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '720p'), 'HDTV')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 720p-HDTV*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '720p'), 'HDTV')",
+    "score": -2000,
     "enabled": true
   },
   {
     "expression": "/*Low Bitrate Anime Bluray-576p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '576p'), 'Bluray')",
-    "score": -35000,
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime Bluray-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '480p'), 'Bluray')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 480p-Bluray*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '480p'), 'Bluray')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime WEBDL-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '480p'), 'WEB-DL')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 480p-WEBDL*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '480p'), 'WEB-DL')",
+    "score": -2000,
     "enabled": true
   },
   {
-    "expression": "/*Low Bitrate Anime WEBRip-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '480p'), 'WEBRip')",
-    "score": -35000,
+    "expression": "/*Low Bitrate Anime 480p-WEBRip*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '480p'), 'WEBRip')",
+    "score": -2000,
     "enabled": true
   },
   {
     "expression": "/*Low Bitrate Anime DVDRip-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '480p'), 'DVDRip')",
-    "score": -35000,
+    "score": -2000,
     "enabled": true
   },
   {
     "expression": "/*Low Bitrate Anime DVD-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '4Mbps'), streams), '480p'), 'DVD')",
-    "score": -35000,
+    "score": -2000,
     "enabled": true
   }
 ]
