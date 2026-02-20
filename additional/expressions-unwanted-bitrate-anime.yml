@@ -1,0 +1,102 @@
+{
+  {
+    "expression": "/*Bitrate Remux-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '2160p'), 'Bluray REMUX')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate Bluray-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '2160p'), 'Bluray')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate WEBDL-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '2160p'), 'WEB-DL')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate WEBRip-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '2160p'), 'WEBRip')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate HDTV-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '2160p'), 'HDTV')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate Remux-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '1080p'), 'Bluray REMUX')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate Bluray-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '1080p'), 'Bluray')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate WEBDL-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '1080p'), 'WEB-DL')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate WEBRip-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '1080p'), 'WEBRip')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate HDTV-1080p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '1080p'), 'HDTV')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate Bluray-720p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '720p'), 'Bluray')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate WEBDL-720p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '720p'), 'WEB-DL')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate WEBRip-720p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '720p'), 'WEBRip')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate HDTV-720p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '720p'), 'HDTV')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate Bluray-576p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '576p'), 'Bluray')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate Bluray-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'Bluray')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate WEBDL-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'WEB-DL')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate WEBRip-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'WEBRip')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate DVDRip-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'DVDRip')",
+    "score": -35000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bitrate DVD-480p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '480p'), 'DVD')",
+    "score": -35000,
+    "enabled": true
+  }
+]
