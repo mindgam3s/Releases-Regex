@@ -1,4 +1,4 @@
-{
+[
   {
     "expression": "/*Bitrate Remux-2160p*/ (queryType!='anime') ? [] : quality(resolution(negate(bitrate(streams, '5Mbps'), streams), '2160p'), 'Bluray REMUX')",
     "score": -35000,
