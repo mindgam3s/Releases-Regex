@@ -346,8 +346,8 @@
   },
   {
     "expression": "/*x265 (no HDR/DV)*/ visualTag(negate(merge(resolution(merge(encode(streams, 'x265','H.265','HEVC') , regexMatched(streams, 'x265 (HD)')), '2160p') , quality(resolution(merge(encode(streams, 'x265','H.265','HEVC') , regexMatched(streams, 'x265 (HD)')), '1080p'), 'Bluray REMUX')), merge(encode(streams, 'x265','H.265','HEVC') , regexMatched(streams, 'x265 (HD)'))), 'DV','HDR','HDR10','HDR10+')",
-    "score": -35000,
-    "enabled": true
+    "score": -0,
+    "enabled": false
   },
   {
     "expression": "/*IMAX*/ visualTag(streams, 'IMAX')",
