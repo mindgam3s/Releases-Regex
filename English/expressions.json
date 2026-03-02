@@ -115,12 +115,12 @@
     "enabled": true
   },
   {
-    "expression": "/*LQ (Release title) [Movie]*/ (queryType!='movie') ? [] : regexMatched(streams, 'LQ (Release Title) [Movie]')",
+    "expression": "/*LQ (Release title)*/ (queryType!='movie') ? [] : regexMatched(streams, 'LQ (Release Title) [Movie]')",
     "score": -1000,
     "enabled": true
   },
   {
-    "expression": "/*LQ (Release title) [Series]*/ (queryType!='series') ? [] : regexMatched(streams, 'LQ (Release Title) [Series]')",
+    "expression": "/*LQ (Release title)*/ (queryType!='series') ? [] : regexMatched(streams, 'LQ (Release Title) [Series]')",
     "score": -10000,
     "enabled": true
   },
