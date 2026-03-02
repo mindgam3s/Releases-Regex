@@ -341,13 +341,13 @@
   },
   {
     "expression": "/*x265 (HD)*/ negate(merge(resolution(encode(streams, 'x265','H.265','HEVC'), '2160p') , quality(resolution(encode(streams, 'x265','H.265','HEVC'), '1080p'), 'Bluray REMUX')), encode(streams, 'x265','H.265','HEVC')",
-    "score": -10000,
+    "score": 0,
     "enabled": true
   },
   {
-    "expression": "/*x265 (no HDR/DV)*/ encode(negate(visualTags(negate(resolution(streams, '2160p'), streams), 'DV','HDR','HDR10','HDR10+'), negate(resolution(streams, '2160p'), streams)), 'x265','H.265','HEVC')",
-    "score": -10000,
-    "enabled": false
+    "expression": "/*x265 (no HDR/DV)*/ negate(merge(visualTags(streams, 'DV','HDR','HDR10','HDR10+'), resolution(streams, '2160p')), encode(streams, 'x265','H.265','HEVC'))",
+    "score": -35000,
+    "enabled": true
   },
   {
     "expression": "/*IMAX*/ visualTag(streams, 'IMAX')",
