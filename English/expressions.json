@@ -353,5 +353,10 @@
     "expression": "/*BCore*/ regexMatched(quality(streams, 'WEB-DL','WEBRip'), 'BCORE')",
     "score": 15,
     "enabled": true
+  },
+  {
+    "expression": "/*DV Profile 7 (probably)*/ visualTag(quality(negate(visualTag(streams, 'HDR','HDR10','HDR10+'), streams), 'Bluray REMUX'), 'DV')",
+    "score": -35000,
+    "enabled": false
   }
 ]
