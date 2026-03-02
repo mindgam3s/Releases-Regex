@@ -17,6 +17,8 @@ Templates are auto-updated with each release; you only need to re-apply them fro
 
 ### How to use/import
 
-- for self-hosters of AIOStreams: just use the expressions and regexe syou need
+- for self-hosters of AIOStreams: just use the **ranked** Stream Expressions and Regexes you need
+  - use just english or german as german also contains english, but with different scoring
+  - you can use one or more of the additional Ranked Stream Expressions providing addtional fixes to known problems
 - for everyone else:
   - beg your instance maintainers to whitelist the repo! (sorry guys)
