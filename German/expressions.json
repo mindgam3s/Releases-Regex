@@ -235,12 +235,12 @@
     "enabled": true
   },
   {
-    "expression": "/*German LQ (Release Title)*/ (queryType!='movie') ? [] : regexMatched(streams, 'German LQ (Release Title)')",
+    "expression": "/*German LQ (Release Title)*/ (queryType!='movie') ? [] : regexMatched(streams, 'German LQ (Release Title) [Movie]')",
     "score": -35000,
     "enabled": true
   },
   {
-    "expression": "/*German LQ (Release Title)*/ (queryType!='series') ? [] : regexMatched(streams, 'German LQ (Release Title)')",
+    "expression": "/*German LQ (Release Title)*/ (queryType!='series') ? [] : regexMatched(streams, 'German LQ (Release Title) [Series]')",
     "score": -35000,
     "enabled": true
   },
@@ -250,12 +250,12 @@
     "enabled": true
   },
   {
-    "expression": "/*LQ (Release title)*/ (queryType!='movie') ? [] : regexMatched(streams, 'LQ (Release Title)')",
+    "expression": "/*LQ (Release title)*/ (queryType!='movie') ? [] : regexMatched(streams, 'LQ (Release Title) [Movie]')",
     "score": -35000,
     "enabled": true
   },
   {
-    "expression": "/*LQ (Release title)*/ (queryType!='series') ? [] : regexMatched(streams, 'LQ (Release Title)')",
+    "expression": "/*LQ (Release title)*/ (queryType!='series') ? [] : regexMatched(streams, 'LQ (Release Title) [Series]')",
     "score": -35000,
     "enabled": true
   },
