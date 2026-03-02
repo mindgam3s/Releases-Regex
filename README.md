@@ -1,16 +1,22 @@
-# Releases-Regex Repository
+# TRaSH guides based Stream Expressions and Regexes for [AIOStreams](https://github.com/Viren070/AIOStreams)
 
-Regular Expressions and ranked stream expressions (AIOStreams) for automatically **sorting and scoring** anime, movies, and TV show releases.
-Patterns are mostly sourced from [TRaSH Guides](https://trash-guides.info) to score releases based on source quality (Remux, Bluray, WEB), release groups (both high-quality and low-quality), audio/visual tags (HDR, Atmos, DTS), and other quality indicators.
-Wherever possible AIOStreams own tagging system is used, if something is not tagged correctly, create a bug over o´n either their github or discord.
-
+> heavily inspired by [Vidhin's Releases Regex](https://github.com/Vidhin05/Releases-Regex), optimized for [AIOStreams](https://github.com/Viren070/AIOStreams) and following the well established TRaSH guides recommendations
 ---
 
 ## AIOStreams - Usage Instructions
 
-AIOStreams uses a template-based import system. Templates are auto-updated with each release; you only need to re-apply them from the Template Wizard section in About to get the latest updates.
+AIOStreams uses a template-based import system.
+Templates are auto-updated with each release; you only need to re-apply them from the Template Wizard section in About to get the latest updates.
 
 ### Stream Expression Score-based Sorting
 
 - **Sort Order Type**: `Global`
 - **Sort Order**: `Library | Cached | Stream Expression Score | Bitrate (Estimate) | Resolution`
+
+---
+
+### How to use/import
+
+- for self-hosters of AIOStreams: just use the expressions and regexe syou need
+- for everyone else:
+  - beg your instance maintainers to whitelist the repo! (sorry guys)
