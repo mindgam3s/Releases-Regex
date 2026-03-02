@@ -510,7 +510,7 @@
     "enabled": true
   },
   {
-    "expression": "/*DV Profile 7 (probably)*/ visualTag(quality(negate(visualTag(streams, 'HDR','HDR10','HDR10+'), streams), 'Bluray REMUX'), 'DV')",
+    "expression": "/*DV Profile 7 (probably)*/ visualTag(quality(negate(visualTag(streams, 'HDR','HDR10','HDR10+'), streams), 'Bluray REMUX','Bluray'), 'DV')",
     "score": -35000,
     "enabled": false
   }
