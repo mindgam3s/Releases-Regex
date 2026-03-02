@@ -200,7 +200,7 @@
     "enabled": true
   },
   {
-    "expression": "/*x265 (no HDR/DV)*/ negate(merge(visualTags(streams, 'DV','HDR','HDR10','HDR10+'), resolution(streams, '2160p')), encode(streams, 'x265','H.265','HEVC'))",
+    "expression": "/*x265 (no HDR/DV)*/ negate(merge(visualTag(streams, 'DV','HDR','HDR10','HDR10+'), resolution(streams, '2160p')), encode(streams, 'x265','H.265','HEVC'))",
     "score": -10000,
     "enabled": true
   },
