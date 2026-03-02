@@ -8,6 +8,8 @@
 AIOStreams uses a template-based import system.
 Templates are auto-updated with each release; you only need to re-apply them from the Template Wizard section in About to get the latest updates.
 
+Make sure to use the URL to the **raw** github file if you want to use synced URLs!
+
 ### Stream Expression Score-based Sorting
 
 - **Sort Order Type**: `Global`
@@ -17,8 +19,12 @@ Templates are auto-updated with each release; you only need to re-apply them fro
 
 ### How to use/import
 
-- for self-hosters of AIOStreams: just use the **ranked** Stream Expressions and Regexes you need
+- import via:
+  - synced URLs (needs to be white-listed for your AIOStreams instance) (**recommended**)
+  - manual file-import
+
+- for **self-hosters** of AIOStreams: just use the **ranked** Stream Expressions and Regexes you need
   - use just english or german as german also contains english, but with different scoring
   - you can use one or more of the additional Ranked Stream Expressions providing addtional fixes to known problems
-- for everyone else:
+- for **everyone else** (public instance):
   - beg your instance maintainers to whitelist the repo! (sorry guys)
