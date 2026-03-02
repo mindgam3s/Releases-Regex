@@ -1,4 +1,4 @@
-# TRaSH guides based Stream Expressions and Regexes for [AIOStreams](https://github.com/Viren070/AIOStreams)
+# TRaSH guides based Stream Expressions and Regexes
 
 > heavily inspired by [Vidhin's Releases Regex](https://github.com/Vidhin05/Releases-Regex), optimized for [AIOStreams](https://github.com/Viren070/AIOStreams) and following the well established TRaSH guides recommendations
 ---
