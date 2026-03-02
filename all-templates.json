@@ -1,0 +1,151 @@
+[
+  {
+    "metadata": {
+      "id": "mindgam3s.ger",
+      "name": "GERMAN (basic) scoring and sorting",
+      "description": "GERMAN (basic)\n\nsorting streams using TRaSH based quality profiles\nfully **auto-syncs** with stable branch",
+      "source": "external",
+      "author": "mindgam3s",
+      "version": "0.1.0",
+      "category": "Regex",
+      "services": [],
+      "serviceRequired": false
+    },
+    "config": {
+      "syncedRankedRegexUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/German/regexes.json"
+      ],
+      "syncedRankedStreamExpressionUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/German/expressions.json"
+      ],
+	  "excludedStreamExpressions": [
+	    "/*minimum score 10000*/ negate(streamExpressionScore(streams, 10000), streams)"
+	  ]
+    }
+  },
+  {
+    "metadata": {
+      "id": "mindgam3s.eng",
+      "name": "ENGLISH (basic) scoring and sorting",
+      "description": "ENGLISH (basic)\n\nsorting streams using TRaSH based quality profiles\nfully **auto-syncs** with stable branch",
+      "source": "external",
+      "author": "mindgam3s",
+      "version": "0.1.0",
+      "category": "Regex",
+      "services": [],
+      "serviceRequired": false
+    },
+    "config": {
+      "syncedRankedRegexUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/English/regexes.json"
+      ],
+      "syncedRankedStreamExpressionUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/English/expressions.json"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "id": "mindgam3s.ger-extended",
+      "name": "GERMAN (extended) scoring and sorting",
+      "description": "GERMAN (extended)\n\nsorting streams using TRaSH based quality profiles\nfully **auto-syncs** with stable branch",
+      "source": "external",
+      "author": "mindgam3s",
+      "version": "0.1.0",
+      "category": "Regex",
+      "services": [],
+      "serviceRequired": false
+    },
+    "config": {
+      "syncedRankedRegexUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/German/regexes.json"
+      ],
+      "syncedRankedStreamExpressionUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/German/expressions.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-bitrate.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-bitrate-anime.json"
+      ],
+	  "excludedStreamExpressions": [
+	    "/*minimum score 10000*/ negate(streamExpressionScore(streams, 10000), streams)"
+	  ]
+    }
+  },
+  {
+    "metadata": {
+      "id": "mindgam3s.eng-extended",
+      "name": "ENGLISH (extended) scoring and sorting",
+      "description": "ENGLISH (extended)\n\nsorting streams using TRaSH based quality profiles\nfully **auto-syncs** with stable branch",
+      "source": "external",
+      "author": "mindgam3s",
+      "version": "0.1.0",
+      "category": "Regex",
+      "services": [],
+      "serviceRequired": false
+    },
+    "config": {
+      "syncedRankedRegexUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/English/regexes.json"
+      ],
+      "syncedRankedStreamExpressionUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/English/expressions.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-bitrate.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-bitrate-anime.json"
+      ]
+    }
+  },
+  {
+    "metadata": {
+      "id": "mindgam3s.ger-full",
+      "name": "GERMAN (full) scoring and sorting",
+      "description": "GERMAN (full)\n\nsorting streams using TRaSH based quality profiles\nfully **auto-syncs** with stable branch",
+      "source": "external",
+      "author": "mindgam3s",
+      "version": "0.1.0",
+      "category": "Regex",
+      "services": [],
+      "serviceRequired": false
+    },
+    "config": {
+      "syncedRankedRegexUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/German/regexes.json"
+      ],
+      "syncedRankedStreamExpressionUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/German/expressions.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-bitrate.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-bitrate-anime.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-dolbyvision-profiles.json"
+      ],
+	  "excludedStreamExpressions": [
+	    "/*minimum score 10000*/ negate(streamExpressionScore(streams, 10000), streams)"
+	  ]
+    }
+  },
+  {
+    "metadata": {
+      "id": "mindgam3s.eng-full",
+      "name": "ENGLISH (full) scoring and sorting",
+      "description": "ENGLISH (full)\n\nsorting streams using TRaSH based quality profiles\nfully **auto-syncs** with stable branch",
+      "source": "external",
+      "author": "mindgam3s",
+      "version": "0.1.0",
+      "category": "Regex",
+      "services": [],
+      "serviceRequired": false
+    },
+    "config": {
+      "syncedRankedRegexUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/English/regexes.json"
+      ],
+      "syncedRankedStreamExpressionUrls": [
+        "https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/English/expressions.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-bitrate.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-bitrate-anime.json",
+		"https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/additional/expressions-unwanted-dolbyvision-profiles.json"
+      ]
+    }
+  }
+]
