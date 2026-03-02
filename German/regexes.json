@@ -1,5 +1,75 @@
 [
   {
+    "name": "German",
+    "pattern": "/\\b(german)\\b/i",
+    "score": 0
+  },
+  {
+    "pattern": "/((?<=\\b[12]\\d{3}\\b)(?=.*\\b(HEVC)\\b)(?=.*\\b(AI)\\b))|(\\b(AIUS|RW)\\b)|(\\b((Upscale)?Re-?graded?)\\b)|(\\b(The[ ._-]?Upscaler)\\b)|((?<=\\b[12]\\d{3}\\b).*\\b(AI[ ._-]?Enhanced|UPS(UHD)?|Upscaled?([ ._-]?UHD)?|UpRez)\\b)/i",
+    "name": "Upscaled",
+    "score": 0
+  },
+  {
+    "name": "German LQ (Release Title) [Movie]",
+    "pattern": "/(([._-])iTunes(?:HD|SD)?\\1.+?-TVS$)|(Jellyfin-Plex$)|([._-]German[._-].+?[._-]?German$)/i",
+    "score": 0
+  },
+  {
+    "name": "German LQ (Release Title) [Series]",
+    "pattern": "/(([._-])iTunes(?:HD|SD)?\\1.+?-TVS$)|(Jellyfin-Plex$)|([._-]German[._-].+?[._-]?German$)/i",
+    "score": 0
+  },
+  {
+    "name": "LQ (Release Title) [Movie]",
+    "pattern": "/(\\b(1XBET|BEN[ ._-]THE[ ._-]MEN|Feranki1980|GalaxyRG|SWTYBLZ|TeeWee|TEKNO3D|Will1869)\\b)|((?<!-)\\b(jennaortega(UHD)?)\\b)|((?<=\\b[12]\\d{3}\\b.*?)(?<!\\b(web[ ._-]?(dl|rip)?).*?)\\b(PiRaTeS)\\b)|(\\b(READ(\\s|\\.)+NOTE)\\b)/i",
+    "score": 0
+  },
+  {
+    "name": "LQ (Release Title) [Series]",
+    "pattern": "/(\\b(1XBET|BEN[ ._-]THE[ ._-]MEN|CREATiVE24|Feranki1980|TeeWee)\\b)|((?=.*?(\\b2160p\\b))(?=.*?(\\bBiTOR\\b)))/i",
+    "score": 0
+  },
+  {
+    "name": "DL",
+    "pattern": "/(?<!WEB[-_. ]?)\\b(DL)\\b/i",
+    "score": 0
+  },
+  {
+    "name": "ML",
+    "pattern": "/\\b(ML)\\b/i",
+    "score": 0
+  },
+  {
+    "pattern": "/\\b(Repack|Proper|Rerip)\\b/i",
+    "name": "Repack/Proper",
+    "score": 0
+  },
+  {
+    "pattern": "/\\b((repack|proper)2)\\b|\\b(REAL\\.(PROPER|REPACK))\\b/i",
+    "name": "Repack2",
+    "score": 0
+  },
+  {
+    "pattern": "/\\b((repack|proper)3)\\b|\\b(REAL\\.REAL\\.(PROPER|REPACK))\\b/i",
+    "name": "Repack3",
+    "score": 0
+  },
+  {
+    "pattern": "/-4P\\b|-4Planet\\b|-AsRequested\\b|-BUYMORE\\b|-Chamele0n\\b|-GEROV\\b|-iNC0GNiTO\\b|-NZBGeek\\b|-Obfuscated\\b|-postbot\\b|-Rakuv\\b|(?<=\\bS\\d+\\b).*(Scrambled)\\b|-WhiteRev\\b|-xpost\\b|-WRTEAM\\b|-CAPTCHA\\b|_nzb\\b/i",
+    "name": "Obfuscated",
+    "score": 0
+  },
+  {
+    "pattern": "/^(?!.*\\b((?<!HD[._ -]|HD)DVD|BDRip|720p|MKV|XviD|WMV|d3g|(BD)?REMUX|^(?=.*1080p)(?=.*HEVC)|[xh][-_. ]?26[45]|German.*[DM]L|((?<=\\d{4}).*German.*([DM]L)?)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2)\\b))\\b)(((?=.*\\b(Blu[-_. ]?ray|BD|HD[-_. ]?DVD)\\b)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2|BDMV|ISO)\\b))|^((?=.*\\b(((?=.*\\b((.*_)?COMPLETE.*|Dis[ck])\\b)(?=.*(Blu[-_. ]?ray|HD[-_. ]?DVD)))|3D[-_. ]?BD|BR[-_. ]?DISK|Full[-_. ]?Blu[-_. ]?ray|^((?=.*((BD|UHD)[-_. ]?(25|50|66|100|ISO)))))))).*$/i",
+    "name": "BR-DISK",
+    "score": 0
+  },
+  {
+    "pattern": "/[xh][ ._-]?265|\\bHEVC(\\b|\\d)/i",
+    "name": "x265 (HD)",
+    "score": 0
+  },
+  {
     "name": "Anime BD T1",
     "pattern": "/^(?=.*(BluRay|Blu-Ray|HD-?DVD|BDMux|BD(?!$)|bd(?:720|1080|2160)|(?<=[-_. (\\[])bd(?=[-_. )\\]])|DVD|DVDRip|NTSC|PAL|xvidvd))(?=.*(\\[(Moxie|smol|SoM)\\]|-(Moxie|smol|SoM)\\b|\\b(DemiHuman|FLE|Flugel|LYS1TH3A|ZR)\\b|(?<=remux).*\\b(NAN0)\\b|-ZR-)).*/i",
     "score": 0
@@ -135,16 +205,6 @@
     "score": 0
   },
   {
-    "name": "German",
-    "pattern": "/\\b(german)\\b/i",
-    "score": 0
-  },
-  {
-    "pattern": "/((?<=\\b[12]\\d{3}\\b)(?=.*\\b(HEVC)\\b)(?=.*\\b(AI)\\b))|(\\b(AIUS|RW)\\b)|(\\b((Upscale)?Re-?graded?)\\b)|(\\b(The[ ._-]?Upscaler)\\b)|((?<=\\b[12]\\d{3}\\b).*\\b(AI[ ._-]?Enhanced|UPS(UHD)?|Upscaled?([ ._-]?UHD)?|UpRez)\\b)/i",
-    "name": "Upscaled",
-    "score": 0
-  },
-  {
     "name": "Extras",
     "pattern": "/(?<=\\b[12]\\d{3}\\b).*\\b(Extras|Bonus|Extended[ ._-]Clip)\\b/i",
     "score": 0
@@ -152,26 +212,6 @@
   {
     "name": "VOSTFR",
     "pattern": "/\\b(VOST.*?FR(E|A)?|SUBFR(A|ENCH)?)\\b/i",
-    "score": 0
-  },
-  {
-    "name": "German LQ (Release Title) [Movie]",
-    "pattern": "/(([._-])iTunes(?:HD|SD)?\\1.+?-TVS$)|(Jellyfin-Plex$)|([._-]German[._-].+?[._-]?German$)/i",
-    "score": 0
-  },
-  {
-    "name": "German LQ (Release Title) [Series]",
-    "pattern": "/(([._-])iTunes(?:HD|SD)?\\1.+?-TVS$)|(Jellyfin-Plex$)|([._-]German[._-].+?[._-]?German$)/i",
-    "score": 0
-  },
-  {
-    "name": "LQ (Release Title) [Movie]",
-    "pattern": "/(\\b(1XBET|BEN[ ._-]THE[ ._-]MEN|Feranki1980|GalaxyRG|SWTYBLZ|TeeWee|TEKNO3D|Will1869)\\b)|((?<!-)\\b(jennaortega(UHD)?)\\b)|((?<=\\b[12]\\d{3}\\b.*?)(?<!\\b(web[ ._-]?(dl|rip)?).*?)\\b(PiRaTeS)\\b)|(\\b(READ(\\s|\\.)+NOTE)\\b)/i",
-    "score": 0
-  },
-  {
-    "name": "LQ (Release Title) [Series]",
-    "pattern": "/(\\b(1XBET|BEN[ ._-]THE[ ._-]MEN|CREATiVE24|Feranki1980|TeeWee)\\b)|((?=.*?(\\b2160p\\b))(?=.*?(\\bBiTOR\\b)))/i",
     "score": 0
   },
   {
@@ -212,36 +252,6 @@
   {
     "name": "v4",
     "pattern": "/(\\b|\\d)(v4)\\b/i",
-    "score": 0
-  },
-  {
-    "pattern": "/\\b(Repack|Proper|Rerip)\\b/i",
-    "name": "Repack/Proper",
-    "score": 0
-  },
-  {
-    "pattern": "/\\b((repack|proper)2)\\b|\\b(REAL\\.(PROPER|REPACK))\\b/i",
-    "name": "Repack2",
-    "score": 0
-  },
-  {
-    "pattern": "/\\b((repack|proper)3)\\b|\\b(REAL\\.REAL\\.(PROPER|REPACK))\\b/i",
-    "name": "Repack3",
-    "score": 0
-  },
-  {
-    "pattern": "/-4P\\b|-4Planet\\b|-AsRequested\\b|-BUYMORE\\b|-Chamele0n\\b|-GEROV\\b|-iNC0GNiTO\\b|-NZBGeek\\b|-Obfuscated\\b|-postbot\\b|-Rakuv\\b|(?<=\\bS\\d+\\b).*(Scrambled)\\b|-WhiteRev\\b|-xpost\\b|-WRTEAM\\b|-CAPTCHA\\b|_nzb\\b/i",
-    "name": "Obfuscated",
-    "score": 0
-  },
-  {
-    "pattern": "/^(?!.*\\b((?<!HD[._ -]|HD)DVD|BDRip|720p|MKV|XviD|WMV|d3g|(BD)?REMUX|^(?=.*1080p)(?=.*HEVC)|[xh][-_. ]?26[45]|German.*[DM]L|((?<=\\d{4}).*German.*([DM]L)?)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2)\\b))\\b)(((?=.*\\b(Blu[-_. ]?ray|BD|HD[-_. ]?DVD)\\b)(?=.*\\b(AVC|HEVC|VC[-_. ]?1|MVC|MPEG[-_. ]?2|BDMV|ISO)\\b))|^((?=.*\\b(((?=.*\\b((.*_)?COMPLETE.*|Dis[ck])\\b)(?=.*(Blu[-_. ]?ray|HD[-_. ]?DVD)))|3D[-_. ]?BD|BR[-_. ]?DISK|Full[-_. ]?Blu[-_. ]?ray|^((?=.*((BD|UHD)[-_. ]?(25|50|66|100|ISO)))))))).*$/i",
-    "name": "BR-DISK",
-    "score": 0
-  },
-  {
-    "pattern": "/[xh][ ._-]?265|\\bHEVC(\\b|\\d)/i",
-    "name": "x265 (HD)",
     "score": 0
   },
   {
