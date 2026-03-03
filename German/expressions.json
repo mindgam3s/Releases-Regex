@@ -5,12 +5,12 @@
     "enabled": true
   },
   {
-    "expression": "/*German (dual)*/ (originalLanguage == 'German') ? [] : negate(language(streams, 'Original'), regexMatched(language(streams, 'German'), 'ML','DL'))",
+    "expression": "/*German (dual)*/ (originalLanguage == 'German') ? [] : negate(language(streams, 'Original'), regexMatched(language(streams, 'German'), 'MultiLanguage','DualLanguage'))",
     "score": 11000,
     "enabled": true
   },
   {
-    "expression": "/*German (only)*/ (originalLanguage == 'German') ? [] : negate(regexMatched(streams, 'ML','DL'), language(streams, 'German'))",
+    "expression": "/*German*/ (originalLanguage == 'German') ? [] : negate(regexMatched(streams, 'MultiLanguage','DualLanguage'), language(streams, 'German'))",
     "score": 10000,
     "enabled": true
   },
