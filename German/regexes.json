@@ -30,12 +30,12 @@
     "score": 0
   },
   {
-    "name": "DL",
+    "name": "DualLanguage",
     "pattern": "/(?<!WEB[-_. ]?)\\b(DL)\\b/i",
     "score": 0
   },
   {
-    "name": "ML",
+    "name": "MultiLanguage",
     "pattern": "/\\b(ML)\\b/i",
     "score": 0
   },
