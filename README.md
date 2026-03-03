@@ -20,6 +20,7 @@ Make sure to use the URL to the **raw** github file if you want to use synced UR
 ### How to use/import
 
 - import via:
+  - template import [`all-templates.json`](https://raw.githubusercontent.com/mindgam3s/Releases-Regex/refs/heads/main/all-templates.json)
   - synced URLs (needs to be white-listed for your AIOStreams instance) (**recommended**)
   - manual file-import
 
