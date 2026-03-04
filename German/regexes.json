@@ -5,8 +5,13 @@
     "score": 0
   },
   {
-    "pattern": "/((?<=\\b[12]\\d{3}\\b)(?=.*\\b(HEVC)\\b)(?=.*\\b(AI)\\b))|(\\b(AIUS|RW)\\b)|(\\b((Upscale)?Re-?graded?)\\b)|(\\b(The[ ._-]?Upscaler)\\b)|((?<=\\b[12]\\d{3}\\b).*\\b(AI[ ._-]?Enhanced|UPS(UHD)?|Upscaled?([ ._-]?UHD)?|UpRez)\\b)/i",
-    "name": "Upscaled",
+    "name": "DualLanguage",
+    "pattern": "/(?<!WEB[-_. ]?)\\b(DL)\\b/i",
+    "score": 0
+  },
+  {
+    "name": "MultiLanguage",
+    "pattern": "/\\b(ML)\\b/i",
     "score": 0
   },
   {
@@ -30,16 +35,6 @@
     "score": 0
   },
   {
-    "name": "DualLanguage",
-    "pattern": "/(?<!WEB[-_. ]?)\\b(DL)\\b/i",
-    "score": 0
-  },
-  {
-    "name": "MultiLanguage",
-    "pattern": "/\\b(ML)\\b/i",
-    "score": 0
-  },
-  {
     "pattern": "/\\b(Repack|Proper|Rerip)\\b/i",
     "name": "Repack/Proper",
     "score": 0
@@ -52,6 +47,11 @@
   {
     "pattern": "/\\b((repack|proper)3)\\b|\\b(REAL\\.REAL\\.(PROPER|REPACK))\\b/i",
     "name": "Repack3",
+    "score": 0
+  },
+  {
+    "pattern": "/((?<=\\b[12]\\d{3}\\b)(?=.*\\b(HEVC)\\b)(?=.*\\b(AI)\\b))|(\\b(AIUS|RW)\\b)|(\\b((Upscale)?Re-?graded?)\\b)|(\\b(The[ ._-]?Upscaler)\\b)|((?<=\\b[12]\\d{3}\\b).*\\b(AI[ ._-]?Enhanced|UPS(UHD)?|Upscaled?([ ._-]?UHD)?|UpRez)\\b)/i",
+    "name": "Upscaled",
     "score": 0
   },
   {
