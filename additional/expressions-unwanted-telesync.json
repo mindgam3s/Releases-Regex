@@ -1,0 +1,7 @@
+[
+  {
+    "expression": "/*Telesync*/ regexMatched(streams, 'Telesync')",
+    "score": -35000,
+    "enabled": true
+  }
+]
