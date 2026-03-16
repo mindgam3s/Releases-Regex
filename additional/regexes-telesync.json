@@ -1,0 +1,7 @@
+[
+  {
+    "pattern": "/\\b(Telesync)\\b/i",
+    "name": "Telesync",
+    "score": 0
+  }
+]
