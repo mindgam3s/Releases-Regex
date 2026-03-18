@@ -6,7 +6,7 @@
   },  
   {
     "name": "Language (English)",
-    "pattern": "/(?<![^\\s\\[(_\\-.,])(eng(lish)?(?![ .\\-_]?sub(title)?s?))(?=[\\s\)\\]_.\\-,]|$)/i",
+    "pattern": "/(?<![^\\s\\[(_\\-.,])(eng(lish)?(?![ .\\-_]?sub(title)?s?))(?=[\\s\\)\\]_.\\-,]|$)/i",
     "score": 0
   },
   {
