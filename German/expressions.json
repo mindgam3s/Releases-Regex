@@ -1,31 +1,31 @@
 [
   {
-    "expression": "/*German (original)*/ (originalLanguage != 'German') ? [] : merge(language(streams, 'Original'), regexMatched(streams, 'German'))",
+    "expression": "/*German (original)*/ (originalLanguage != 'German') ? [] : merge(language(streams, 'Original'), regexMatched(streams, 'Language (German)'))",
     "score": 11000,
     "enabled": true
   },
   {
-    "expression": "/*German (dual)*/ (originalLanguage == 'German') ? [] : negate(language(streams, 'Original'), regexMatched(regexMatched(streams, 'German'), 'MultiLanguage','DualLanguage'))",
+    "expression": "/*German (dual)*/ (originalLanguage == 'German') ? [] : negate(language(streams, 'Original'), regexMatched(regexMatched(streams, 'Language (German)'), 'MultiLanguage','DualLanguage'))",
     "score": 11000,
     "enabled": true
   },
   {
-    "expression": "/*German*/ (originalLanguage == 'German') ? [] : negate(regexMatched(streams, 'MultiLanguage','DualLanguage'), regexMatched(streams, 'German'))",
+    "expression": "/*German*/ (originalLanguage == 'German') ? [] : negate(regexMatched(streams, 'MultiLanguage','DualLanguage'), regexMatched(streams, 'Language (German)'))",
     "score": 10000,
     "enabled": true
   },
   {
-    "expression": "/*Not German or English*/ negate(merge(language(streams, 'German'), language(streams, 'English'), regexMatched(streams, 'German')), streams)",
+    "expression": "/*Not German or English*/ negate(merge(regexMatched(streams, 'Language (English)'), regexMatched(streams, 'Language (German)')), streams)",
     "score": -35000,
     "enabled": true
   },
   {
-    "expression": "/*German 2160p Booster*/ (originalLanguage == 'German') ? language(resolution(streams,'2160p'), 'German','Original') : []",
+    "expression": "/*German 2160p Booster*/ (originalLanguage != 'German') ? [] : resolution(merge(regexMatched(streams, 'Language (German)'), language(streams, 'Original')), '2160p')",
     "score": 9000,
     "enabled": true
   },
   {
-    "expression": "/*German 1080p Booster*/ (originalLanguage == 'German') ? language(resolution(streams,'1080p'), 'German','Original') : []",
+    "expression": "/*German 1080p Booster*/ (originalLanguage != 'German') ? [] : resolution(merge(regexMatched(streams, 'Language (German)'), language(streams, 'Original')), '1080p')",
     "score": 650,
     "enabled": true
   },
