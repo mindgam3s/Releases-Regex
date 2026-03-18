@@ -1,9 +1,14 @@
 [
   {
-    "name": "German",
-    "pattern": "/(\\b(German)\\b)|(?<![^\\s\\[(_\\-.,])(((ger(man)?|deu(tsch)?))(?![ .\\-_]?sub(title)?s?))(?=[\\s\\)\\]_.\\-,]|$)/i",
+    "name": "German (Release Title)",
+    "pattern": "/\\b(German)\\b/i",
     "score": 0
   },
+  {
+    "name": "German",
+    "pattern": "/(?<![^\\s\\[(_\\-.,])((ger(man)?|deu(tsch)?)(?![ .\\-_]?sub(title)?s?))(?=[\\s\\)\\]_.\\-,]|$)/i",
+    "score": 0
+  },  
   {
     "name": "English",
     "pattern": "/(?<![^\\s\\[(_\\-.,])((eng(lish)?)(?![ .\\-_]?sub(title)?s?))(?=[\\s\\)\\]_.\\-,]|$)/i",
