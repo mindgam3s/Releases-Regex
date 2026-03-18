@@ -1,16 +1,16 @@
 [
   {
-    "expression": "/*German (original)*/ (originalLanguage != 'German') ? [] : language(streams, 'German','Original')",
+    "expression": "/*German (original)*/ (originalLanguage != 'German') ? [] : merge(language(streams, 'Original'), regexMatched(streams, 'German'))",
     "score": 11000,
     "enabled": true
   },
   {
-    "expression": "/*German (dual)*/ (originalLanguage == 'German') ? [] : negate(language(streams, 'Original'), regexMatched(language(streams, 'German'), 'MultiLanguage','DualLanguage'))",
+    "expression": "/*German (dual)*/ (originalLanguage == 'German') ? [] : negate(language(streams, 'Original'), regexMatched(regexMatched(streams, 'German'), 'MultiLanguage','DualLanguage'))",
     "score": 11000,
     "enabled": true
   },
   {
-    "expression": "/*German*/ (originalLanguage == 'German') ? [] : negate(regexMatched(streams, 'MultiLanguage','DualLanguage'), language(streams, 'German'))",
+    "expression": "/*German*/ (originalLanguage == 'German') ? [] : negate(regexMatched(streams, 'MultiLanguage','DualLanguage'), regexMatched(streams, 'German'))",
     "score": 10000,
     "enabled": true
   },
