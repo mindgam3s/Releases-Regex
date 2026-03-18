@@ -5,7 +5,7 @@
     "enabled": true
   },
   {
-    "expression": "/*German (dual)*/ (originalLanguage == 'German') ? [] : negate(language(streams, 'Original'), regexMatched(regexMatched(streams, 'Language (German)'), 'MultiLanguage','DualLanguage'))",
+    "expression": "/*German (dual)*/ (originalLanguage == 'German') ? [] : regexMatched(regexMatched(streams, 'Language (German)'), 'MultiLanguage','DualLanguage')",
     "score": 11000,
     "enabled": true
   },
