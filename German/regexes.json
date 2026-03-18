@@ -1,17 +1,12 @@
 [
   {
-    "name": "German (Release Title)",
-    "pattern": "/\\b(German)\\b/i",
-    "score": 0
-  },
-  {
     "name": "Language (German)",
-    "pattern": "/(?<![^\\s\\[(_\\-.,])((ger(man)?|deu(tsch)?)(?![ .\\-_]?sub(title)?s?))(?=[\\s\\)\\]_.\\-,]|$)/i",
+    "pattern": "/(?<![^\\s\\[(_\\-.,])(deu(tsch)?|ger(man)?(?![ .\\\\-_]?sub(title)?s?))(?=[\\s\\)\\]_.\\-,]|$)/i",
     "score": 0
   },  
   {
     "name": "Language (English)",
-    "pattern": "/(?<![^\\s\\[(_\\-.,])((eng(lish)?)(?![ .\\-_]?sub(title)?s?))(?=[\\s\\)\\]_.\\-,]|$)/i",
+    "pattern": "/(?<![^\\s\\[(_\\-.,])(eng(lish)?(?![ .\\\\-_]?sub(title)?s?))(?=[\\s\\)\\]_.\\-,]|$)/i",
     "score": 0
   },
   {
