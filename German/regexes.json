@@ -1,7 +1,7 @@
 [
   {
     "name": "Language (German)",
-    "pattern": "/(deu(tsch)?|ger(man)?)/i",
+    "pattern": "/\\b(deu(tsch)?|ger(man)?|DEU(TSCH)?|GER(MAN)?)\\b/i",
     "score": 0
   },  
   {
