@@ -20,6 +20,16 @@
     "enabled": true
   },
   {
+    "expression": "/*Bad Dual Groups*/ (queryType!='movie') ? [] : regexMatched(streams, 'Bad Dual Groups Movies')",
+    "score": -10000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bad Dual Groups*/ (queryType!='series') ? [] : regexMatched(streams, 'Bad Dual Groups Series')",
+    "score": -10000,
+    "enabled": true
+  },
+  {
     "expression": "/*German 2160p Booster*/ (originalLanguage == 'German') ? language(resolution(streams,'2160p'), 'German','Original') : []",
     "score": 9000,
     "enabled": true
