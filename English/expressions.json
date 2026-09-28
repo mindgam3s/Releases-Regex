@@ -1,5 +1,15 @@
 [
   {
+    "expression": "/*Bad Dual Groups*/ (queryType!='movie') ? [] : regexMatched(streams, 'Bad Dual Groups Movies')",
+    "score": -10000,
+    "enabled": true
+  },
+  {
+    "expression": "/*Bad Dual Groups*/ (queryType!='series') ? [] : regexMatched(streams, 'Bad Dual Groups Series')",
+    "score": -10000,
+    "enabled": true
+  },
+  {
     "expression": "/*Remux T1*/ (queryType!='movie') ? [] : releaseGroup(quality(streams, 'Bluray REMUX'), '3L','BiZKiT','BLURANiUM','BMF','CiNEPHiLES','FraMeSToR','PiRAMiDHEAD','PmP','WiLDCAT','ZQ')",
     "score": 1950,
     "enabled": true
