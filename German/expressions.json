@@ -20,7 +20,7 @@
     "enabled": true
   },
   {
-    "expression": "/*Bad Dual Groups Movies*/ (queryType!='movie') ? [] : regexMatched(streams, 'Bad Dual Groups Movies')",
+    "expression": "/*Bad Dual Groups*/ (queryType!='movie') ? [] : regexMatched(streams, 'Bad Dual Groups Movies')",
     "score": -10000,
     "enabled": true
   },
